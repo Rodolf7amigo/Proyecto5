@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+}
+
+body {   
+	font-family: 'Roboto', sans-serif;
+	background: #E5E5E5;   
+	background-image: url(#);             
+	background-repeat: no-repeat;   
+	background-position: right bottom;                                            
+}
+
+main { 
+	max-width: 800px;      
+	margin: auto; 
+	padding: 40px;    	 
+}
+
+.formulario {
+	display: grid;  
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;  
+}
+
+.formulario__label {
+	display: grid;  
+	font-weight: 700; 
+	padding: 10px; 
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: fixed;    
+}
+
+.formulario__input {
+	width: 100%;   
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px; 
+	transition: .3s ease all;  
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+} 
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;     
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1028df;
+  margin: 50px 0;
+}
+
+.container {
+width: min(80%, 500px);
+text-align: center;
+position: relative;
+align-items: center;
+display: flex; 
+
+}  
+
+.counters {  
+  display: block;  
+}
+
+
+
+
+@media (min-width: 768px) {
+  .counters {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  color: #0f1a10; 
+}
+
+.item i {
+  font-size: 2rem;
+}
+
+.counter {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counter__text {
+  font-size: 0.7rem;
+}
+
+.play { 
+	  display: inline-block;
+	  position: absolute;  
+	  bottom: 50px; 
+	  left: 90px;           
+	  display: inline-flex;
+	  justify-content: flex-start;
+	  align-items: center;
+	  text-transform: uppercase;
+	  font-weight: 900;
+	  text-decoration: none;
+	  letter-spacing: 1px;
+	  font-size: 3em;
+	  height: 500px;              
+	  img {
+		margin-right: 10px; 
+		max-width: 50px; 
+		height: 750px;    
+	  } 
+}  
+
+.dibujos {
+	height: 750px;                     
+	margin-left: 370px;            
+}
+
+.dibujohaz {
+	height: 500px;    
+}
+
+ 
+
+
+
+
